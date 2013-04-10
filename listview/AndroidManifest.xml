@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.example.listview" android:versionCode="1"
+	android:versionName="1.0">
+
+	<uses-sdk android:minSdkVersion="8" android:targetSdkVersion="17" />
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+	 <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+       <uses-permission android:name="android.permission.INTERNET"/>
+       <uses-permission android:name="android.permission.GET_TASKS"/>
+	<uses-permission android:name="android.permission.GET_SERVICES"/>
+	<uses-permission android:name="android.permission.BLUETOOTH" />
+	<uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+	<uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/> 
+<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/> 
+<uses-permission android:name="android.permission.RESTART_PACKAGES" />
+<uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+	<application android:allowBackup="true" android:icon="@drawable/ic_launcher"
+		android:label="@string/app_name" android:theme="@style/AppTheme">
+		<activity android:name="com.example.listview.MainActivity"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".ViewDevices"
+			android:label="@string/app_name">
+			</activity>
+		<activity android:name=".ViewActv"
+		    	    android:label="@string/app_name">
+			</activity>
+	<activity android:name=".Login"
+		    	    android:label="BatterySync -Register Device">
+			</activity>
+	</application>
+
+</manifest>

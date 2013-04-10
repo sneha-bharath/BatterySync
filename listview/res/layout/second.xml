@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+
+	<ImageView
+		android:id="@+id/icon"
+	    android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight=".20"
+        />
+
+	<TextView
+		android:id="@+id/name"
+		android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:textStyle="bold"
+        android:textSize="22sp"
+          android:layout_weight=".42"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp" />
+	<TextView
+		android:id="@+id/level"
+		android:text="Battery Level"
+		android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_weight=".22"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp" />
+	
+	<ImageView
+		android:id="@+id/icon2"
+	    android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight=".16"
+         android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp" />
+         
+
+</LinearLayout>

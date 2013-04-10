@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BatterySync</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="log">Log In</string>
+    <string name="defaulttext">Enter your usernname/email</string>
+    <string name="stringtxt1">  View All Devices  </string>
+    <string name="stringtxt2">Go</string>
+    <string name="placehold">This is the list of activities</string>
+    <string name="string_txt">Welcome Poojan! You are using BatterySync with current device</string>
+
+</resources>
